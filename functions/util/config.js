@@ -1,9 +1,9 @@
 module.exports = {
-  apiKey: "AIzaSyDaX6prpYDswKyQH2wzwRZ7IYDzCeJdPN0",
-  authDomain: "authentication-example-e9051.firebaseapp.com",
-  projectId: "authentication-example-e9051",
-  storageBucket: "authentication-example-e9051.appspot.com",
-  messagingSenderId: "240632152416",
-  appId: "1:240632152416:web:bdb1f290fb8b7e99b8de05",
-  measurementId: "G-S976SDQ9J9",
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASUREMENT_ID,
 };
