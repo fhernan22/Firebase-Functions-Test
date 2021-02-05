@@ -148,6 +148,7 @@ app.post("/login", (req, res) => {
     });
 });
 
+// User endopoint
 app.get("/user/:username", FBAuth, (req, res) => {
   let userData = {};
   db.doc(`/users/${req.params.username}`)
