@@ -148,6 +148,7 @@ app.post("/login", (req, res) => {
     });
 });
 
+// Test
 app.get("/user/:username", FBAuth, (req, res) => {
   let userData = {};
   db.doc(`/users/${req.params.username}`)
