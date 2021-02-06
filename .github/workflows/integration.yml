@@ -18,6 +18,7 @@ jobs:
 
       - name: Run Tests
         run: |
+          cd functions
           npm test
 
       - name: Deploy to Firebase
